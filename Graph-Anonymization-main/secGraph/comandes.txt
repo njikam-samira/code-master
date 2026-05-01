@@ -1,0 +1,10 @@
+java -jar secGraphCLI.jar -m a -a kDa -gA data\cora.pairs -gO output\cora\CoraKda5.pairs -k 5
+
+java -jar secGraphCLI.jar -m u -a deg -gA privHRG-master\output\cora\CoraKda5.pairs -gB privHRG-master\data\cora.pairs
+
+java -jar secGraphCLI.jar -m u -a JD -gA privHRG-master\output\cora\CoraKda5.pairs -gB privHRG-master\data\cora.pairs
+
+java -jar secGraphCLI.jar -m u -a LCC -gA privHRG-master\output\cora\CoraKda5.pairs -gB privHRG-master\data\cora.pairs
+
+Java -jar secGraphCLI.jar -m u -a ED -gA /output/cora/CoraKda5.pairs -gB data/cora.pairs
+

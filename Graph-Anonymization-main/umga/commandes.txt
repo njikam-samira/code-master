@@ -1,0 +1,17 @@
+javac -cp ".;lib/*" -d bin -sourcepath src .\src\test\test.java
+java -cp "bin;lib/*" test.test data\cora.gml
+
+javac -cp ".;lib/*" -d bin -sourcepath src .\src\org\uoc\kison\Main.java
+java -cp "bin;lib/*" org.uoc.kison.Main  
+
+
+Linux:
+
+javac -cp ".:lib/*" -d bin -sourcepath src src/org/uoc/kison/Main.java
+
+java -cp "bin:lib/*" org.uoc.kison.Main data/cora.gml 5 G NC
+
+
+jar cfm UMGA.jar manifest.mf -C bin .
+
+java -jar UMGA.jar data/cora.gml 5 G NC

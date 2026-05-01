@@ -1,0 +1,26 @@
+# Large data files
+*.gpickle
+*.npy
+*.pkl
+*.pickle
+
+# Compiled binaries
+*.jar
+*.class
+*.o
+*.so
+*.out
+
+# Logs
+*.log
+*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
